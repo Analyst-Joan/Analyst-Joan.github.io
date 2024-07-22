@@ -201,7 +201,7 @@ header {
 
 .analytics-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Responsive grid layout */
     gap: 20px; /* Adjust spacing between grid items */
     margin-top: 30px; /* Adjust spacing */
 }
@@ -302,7 +302,7 @@ header {
 }
 
 .portfolio-item h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
@@ -314,6 +314,7 @@ header {
 .portfolio-item .btn {
     display: inline-block;
     padding: 10px 20px; /* Adjust button padding */
+    margin-right: 10px;
     background-color: #f0c244; /* Yellow button background */
     color: #073763; /* Dark blue text color */
     text-decoration: none;
@@ -345,7 +346,7 @@ header {
 .Project-button a:hover {
     background-color: #ec7210; /* Replace with hover color */
 }
-/* Contact section styles */
+
 /* Contact section styles */
 #contact {
     text-align: center;
@@ -473,4 +474,23 @@ footer ul {
     list-style-type: none; /* Remove list bullets */
     padding: 0;
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .nav-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links ul li {
+        margin-bottom: 10px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
 }
