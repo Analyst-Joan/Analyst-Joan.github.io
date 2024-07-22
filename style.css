@@ -19,10 +19,10 @@ body {
 
 /* Header and Intro container styles */
 .header-intro-container {
-    background-image: url('Images/hand-bg.jpg'); /* Path to your local image */
+    background-image: url('Images/hand-bg2.jpg'); /* Path to your local image */
     background-size: cover;
     background-position: center;
-    color: #ffffff; /* White text color */
+    color: #f7f7f7; /* White text color */
     text-align: center;
     padding-top: 100px; /* Ensure content is visible under the sticky header */
 }
@@ -134,7 +134,7 @@ header {
 
 .hero-image, .hero-text {
     flex: 1;
-    text-align: left; /* Adjust alignment as needed */
+    text-align: center; /* Adjust alignment as needed */
     margin: 20px; /* Adjust spacing */
 }
 
